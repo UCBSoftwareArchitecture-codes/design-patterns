@@ -1,10 +1,13 @@
 ﻿using System;
 
-namespace DesignPatterns.Strategy {
-    public class Client {
+namespace DesignPatterns.Strategy 
+{
+    public class Client 
+    {
         public IStrategy Strategy { get; set; }
 
-        public void CallAlgorithm () {
+        public void CallAlgorithm ()
+        {
             Console.WriteLine (Strategy.Algorithm ());
         }
     }
